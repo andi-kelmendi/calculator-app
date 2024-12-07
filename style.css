@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
-.card {
-    padding: 15px;
+body {
+    background-color: #3A4663;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nombre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.resultat {
+    background-color: #181F33;
+}
+
+.touche {
+    background-color: #242D44;
+    padding: 10px;
 }
