@@ -40,31 +40,31 @@ h1 {
 
 .theme p {
 	color: white;
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .nombre-de-theme {
-    display: flex;
-    gap: 15px;
-    padding: 0px 15px;
+	display: flex;
+	gap: 15px;
+	padding: 0px 15px;
 }
 
 .nombre-de-theme a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 .couleur {
 	background-color: #242d44;
 	padding: 10px 30px;
-    border-radius: 500px;
+	border-radius: 500px;
 }
 
 .couleur1 {
-	background-color: #D03F2F;
-    padding: 11px;
-    border-radius: 500px;
+	background-color: #d03f2f;
+	padding: 11px;
+	border-radius: 500px;
 }
 
 .resultat {
@@ -128,7 +128,7 @@ button:hover {
 	background-color: #f96b5b;
 }
 
-@media screen and (max-width : 600px) {
+@media screen and (max-width: 600px) {
 	body {
 		padding: 30px;
 	}
@@ -140,7 +140,7 @@ button:hover {
 	}
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width: 320px) {
 	body {
 		padding: 40px;
 	}
@@ -148,6 +148,6 @@ button:hover {
 		gap: 5px;
 	}
 	button {
-		font-size: 32px;
+		gitfont-size: 32px;
 	}
 }
