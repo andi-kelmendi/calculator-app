@@ -12,7 +12,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
-	background-color: #3a4663;
+	background-color: #17062A;
 	font-family: League Spartan;
 }
 
@@ -23,7 +23,7 @@ main {
 }
 
 h1 {
-	color: white;
+	color: #FFE53D;
 }
 
 .nav {
@@ -68,7 +68,7 @@ h1 {
 }
 
 .resultat {
-	background-color: #181f33;
+	background-color: #1E0936;
 	padding: 50px;
 	border-radius: 10px;
 }
@@ -76,7 +76,7 @@ h1 {
 .les-bouttons {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	background-color: #242d44;
+	background-color: #1E0936;
 	padding: 20px;
 	gap: 20px;
 	border-radius: 10px;
@@ -84,8 +84,8 @@ h1 {
 
 button {
 	padding: 10px 20px;
-	color: #434a59;
-	background-color: #eae3dc;
+	color: #FFE53D;
+	background-color: #331C4D;
 	border-radius: 10px;
 	border: none;
 	cursor: pointer;
@@ -94,38 +94,38 @@ button {
 }
 
 button:hover {
-	color: #647198;
+	background-color: #6C34AC;
 }
 
 #del {
-	background-color: #647198;
+	background-color: #56077C;
 	color: white;
 }
 
 #del:hover {
-	background-color: #a2b2e1;
+	background-color: #8631AF;
 }
 
 #reset {
-	background-color: #647198;
+	background-color: #56077C;
 	color: white;
 	font-size: 28px;
 	grid-column: 1 / 3;
 }
 
 #reset:hover {
-	background-color: #a2b2e1;
+	background-color: #8631AF;
 }
 
 #egal {
-	background-color: red;
-	color: white;
+	background-color: #00DED0;
+	color: #1A2327;
 	font-size: 28px;
 	grid-column: 3 / 5;
 }
 
 #egal:hover {
-	background-color: #f96b5b;
+	background-color: #93FFF8;
 }
 
 @media screen and (max-width : 600px) {
@@ -134,20 +134,5 @@ button:hover {
 	}
 	.les-bouttons {
 		gap: 10px;
-	}
-	button {
-		font-size: 32px;
-	}
-}
-
-@media screen and (max-width : 320px) {
-	body {
-		padding: 40px;
-	}
-	.les-bouttons {
-		gap: 5px;
-	}
-	button {
-		font-size: 32px;
 	}
 }
